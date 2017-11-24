@@ -4,10 +4,11 @@ def distinct(value):
         l[i] = int(input("Enter value: "))
     print(l)
     variable = l[0]
-    distinctArray = []
+    commonArrayElements = []
     for k in range(0, value-1):
         if(l[k+1]==variable):
-            distinctArray.append(variable)
+            commonArrayElements.append(variable)
             variable = l[k]
-    print(distinctArray)
+    print("List of common element in array")
+    print(commonArrayElements)
 distinct(5)
