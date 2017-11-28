@@ -4,7 +4,7 @@ def orignalArray(value):
     l = [0]*value
     for i in range(value):
         l[i] = int(input("Enter Value: "))
-    print("Orignal array is:")
+    print("O   rignal array is:")
     print(l)
 
     #REVERSE PROGRAMING LOGIC
