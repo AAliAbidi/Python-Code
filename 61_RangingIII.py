@@ -1,2 +1,9 @@
-lst = [2**n for n in range(1, 9)]
-print(lst)
+def fun():
+    ary=[]
+    j = 0
+    for i in range(0, 10):
+        j = i
+        i = i+1
+        ary.append(j*i)
+    print (ary)
+fun()
